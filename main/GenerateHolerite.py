@@ -87,3 +87,20 @@ class GenerateHolerite:
         oneSecond
 
         pyautogui.write('\\tsclient\C\DOCUMENTOS ROTINA\\' + number + '-RecibodePagamento-' + month)
+        pyautogui.press('tab')
+        pyautogui.press('tab')
+        oneSecond
+        pyautogui.press('enter')
+        tenSeconds
+
+        pyautogui.click(960, 540)
+        pyautogui.hotkey('alt' + 'f4')
+        oneSecond
+
+        pyautogui.click(960, 540)
+        pyautogui.press('esc')
+        pyautogui.press('esc')
+        pyautogui.press('esc')
+        oneSecond
+        pyautogui.press('esc')
+        
