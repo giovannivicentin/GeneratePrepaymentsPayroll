@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
     for i in companiesCodes:
         try:
-            gh.dominioProcess(i)
+            gh.dominioProcess(i, month='052023')
             time.sleep(10)
         except Exception as e:
             print(f"Error processing {i}: {e}")
