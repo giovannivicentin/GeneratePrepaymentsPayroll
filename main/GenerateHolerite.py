@@ -1,0 +1,5 @@
+import pyautogui
+
+class GenerateHolerite:
+    
+    
