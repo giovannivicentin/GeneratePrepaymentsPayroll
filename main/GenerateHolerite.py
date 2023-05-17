@@ -18,8 +18,8 @@ class GenerateHolerite:
         tenSeconds
 
         pyautogui.doubleClick(960, 540)
-        oneSecond
-
+        oneSecond68
+        
         pyautogui.press('f8')
         oneSecond
 
@@ -35,7 +35,7 @@ class GenerateHolerite:
         oneSecond
 
         pyautogui.click(960, 540)
-        oneSecond
+        fiveSeconds
 
         pyautogui.hotkey('alt' + 'r')
         oneSecond
