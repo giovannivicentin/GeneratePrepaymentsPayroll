@@ -1,6 +1,6 @@
 import pyautogui
 
-class GenerateHolerite:
+class LoginDominio:
     
     def __init__(self):
         pass
