@@ -17,6 +17,9 @@ class GenerateHolerite:
         print('start ' + number + ' company.')
         tenSeconds
 
+        pyautogui.doubleClick(960, 540)
+        oneSecond
+
         pyautogui.press('f8')
         oneSecond
 

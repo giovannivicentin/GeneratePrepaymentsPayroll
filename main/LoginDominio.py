@@ -6,7 +6,7 @@ class LoginDominio:
         pass
 
     def userLogin(self, user):
-        pyautogui.sleep(10)
+        pyautogui.sleep(20)
         pyautogui.moveTo(x=952, y=498, duration=0.5)
         pyautogui.doubleClick()
         pyautogui.press('delete')
