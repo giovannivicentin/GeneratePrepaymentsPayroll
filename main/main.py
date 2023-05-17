@@ -1,5 +1,6 @@
 from OpenDominio import OpenDominio
 from GenerateHolerite import GenerateHolerite
+from LoginDominio import LoginDominio
 import time
 
 
@@ -9,12 +10,11 @@ if __name__ == '__main__':
     od = OpenDominio()
     openFolha = od.open_module('folha')
 
-    login = LoginDominio()
-    loginUser = login.userLogin(user='ROTINASDP')
-    loginPassword = login.passwordLogin(password='74157')
+    lg = LoginDominio()
+    loginUser = lg.userLogin(user='ROTINASDP')
+    loginPassword = lg.passwordLogin(password='74157')
 
     gh = GenerateHolerite()
-    
     companiesCodes = []
 
     with open('../companies/companies.txt', 'r', encoding="utf8") as txtFile:
