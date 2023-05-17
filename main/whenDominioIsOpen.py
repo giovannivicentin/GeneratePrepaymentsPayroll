@@ -4,7 +4,7 @@ from LoginDominio import LoginDominio
 import time
 
 
-def test():
+def dominioisOpen():
     gh = GenerateHolerite()
     companiesCodes = []
 
@@ -20,4 +20,4 @@ def test():
         except Exception as e:
             print(f"Error processing {i}: {e}")
 
-test()
+dominioIsOpen()
