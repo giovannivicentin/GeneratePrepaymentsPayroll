@@ -4,7 +4,7 @@ from LoginDominio import LoginDominio
 import time
 
 
-def dominioisOpen():
+def dominioIsOpen():
     gh = GenerateHolerite()
     companiesCodes = []
 
