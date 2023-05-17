@@ -1,5 +1,5 @@
 import pyautogui
-
+import time
 class GenerateHolerite:
 
     def __init__(self):
@@ -8,102 +8,99 @@ class GenerateHolerite:
     def dominioProcess(self, number, month):
 
         path = r'C:\\DOCUMENTOS ROTINA'
-        oneSecond = pyautogui.sleep(1)
-        fiveSeconds = pyautogui.sleep(5)
-        tenSeconds = pyautogui.sleep(10)
-        thirdySeconds = pyautogui.sleep(30)
         fullPath = str(path + '\\' + number + '.pdf')
 
         print('start ' + number + ' company.')
-        tenSeconds
+        time.sleep(10)
 
         pyautogui.doubleClick(960, 540)
-        oneSecond68
+        time.sleep(1)
         
         pyautogui.press('f8')
-        oneSecond
+        time.sleep(1)
 
         pyautogui.write(number)
-        oneSecond
+        time.sleep(1)
 
         pyautogui.press('enter')
-        tenSeconds
+        time.sleep(10)
 
         pyautogui.press('esc')
         pyautogui.press('esc')
         pyautogui.press('esc')
-        oneSecond
+        time.sleep(1)
 
         pyautogui.click(960, 540)
-        fiveSeconds
+        time.sleep(5)
 
-        pyautogui.hotkey('alt' + 'r')
-        oneSecond
+        pyautogui.click(483, 63)
+        time.sleep(1)
         pyautogui.press('r')
-        oneSecond
+        time.sleep(1)
         pyautogui.press('f')
-        fiveSeconds
+        time.sleep(5)
 
         pyautogui.doubleClick(1067, 419)
-        oneSecond
+        time.sleep(1)
 
         pyautogui.doubleClick(653, 294)
         pyautogui.press('delete')
         pyautogui.write(month)
-        oneSecond
+        time.sleep(1)
 
         pyautogui.doubleClick(800, 294)
         pyautogui.press('delete')
         pyautogui.write(month)
-        oneSecond
+        time.sleep(1)
         
         pyautogui.click(1003, 327)
-        oneSecond
+        time.sleep(1)
         pyautogui.click(653, 364)
-        oneSecond
+        time.sleep(1)
 
         pyautogui.click(1002, 419)
-        oneSecond
+        time.sleep(1)
         pyautogui.click(686, 438)
-        oneSecond
+        time.sleep(1)
 
         pyautogui.click(1289, 523)
-        oneSecond
+        time.sleep(1)
         pyautogui.click(1168, 560)
-        oneSecond
+        time.sleep(1)
 
         pyautogui.doubleClick(580, 829)
         pyautogui.press('delete')
-        oneSecond
+        time.sleep(1)
 
         pyautogui.doubleClick(580, 859)
         pyautogui.press('delete')
-        oneSecond
+        time.sleep(1)
 
-        pyautogui.hotkey('alt' + 'o')
-        thirdySeconds
+        pyautogui.click(1420, 275)
+        time.sleep(30)
 
-        pyautogui.hotkey('ctrl' + 'd')
-        fiveSeconds
+        pyautogui.click(40, 435)
+        time.sleep(5)
 
         pyautogui.press('delete')
-        oneSecond
+        time.sleep(1)
 
-        pyautogui.write('\\tsclient\C\DOCUMENTOS ROTINA\\' + number + '-RecibodePagamento-' + month)
+        pyautogui.write('\\' + '\\tsclient\\C\\DOCUMENTOS ROTINA\\' + number + '-RecibodePagamento-' + month)
         pyautogui.press('tab')
         pyautogui.press('tab')
-        oneSecond
+        time.sleep(1)
         pyautogui.press('enter')
-        tenSeconds
+        time.sleep(3)
+        pyautogui.click(1023, 609)
+        time.sleep(25)
 
         pyautogui.click(960, 540)
-        pyautogui.hotkey('alt' + 'f4')
-        oneSecond
+        pyautogui.click(1886, 14)
+        time.sleep(10)
 
         pyautogui.click(960, 540)
         pyautogui.press('esc')
         pyautogui.press('esc')
         pyautogui.press('esc')
-        oneSecond
+        time.sleep(1)
         pyautogui.press('esc')
-        
