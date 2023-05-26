@@ -3,7 +3,7 @@
 #### _RPA system has been developed to automate the issuance of prepayments, significantly reducing the overall work time and minimizing manual errors._
 <br><br>
 
-# How to use
+## How to use
 1. Please create a folder named "C:\Dominio" and place the .rdp module files there, such as "Folha.rdp", "Fiscal.rdp", and so on.
 2. Configure your PC with a 1920x1080 resolution or adjust the coordinates according to the resolution you are using in the code by modifying the "main\LoginDominio.py" and 'main\GenerateHolerite.py' project files.
 3. Within the "main.py" file, make the necessary modifications to the module, user, and password to be used in Dominio.
