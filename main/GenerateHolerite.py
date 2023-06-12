@@ -68,11 +68,11 @@ class GenerateHolerite:
         pyautogui.click(1168, 560)
         time.sleep(1)
 
-        pyautogui.doubleClick(580, 829)
+        pyautogui.doubleClick(586, 842)
         pyautogui.press('delete')
         time.sleep(1)
 
-        pyautogui.doubleClick(580, 859)
+        pyautogui.doubleClick(586, 873)
         pyautogui.press('delete')
         time.sleep(1)
 

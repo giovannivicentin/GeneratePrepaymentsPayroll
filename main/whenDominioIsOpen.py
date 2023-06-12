@@ -15,7 +15,7 @@ def dominioIsOpen():
 
     for i in companiesCodes:
         try:
-            gh.dominioProcess(i, month='052023')
+            gh.dominioProcess(i, month='062023')
             time.sleep(10)
         except Exception as e:
             print(f"Error processing {i}: {e}")
