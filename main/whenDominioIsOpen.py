@@ -1,3 +1,4 @@
+
 from OpenDominio import OpenDominio
 from GenerateHolerite import GenerateHolerite
 from LoginDominio import LoginDominio
@@ -15,7 +16,7 @@ def dominioIsOpen():
 
     for i in companiesCodes:
         try:
-            gh.dominioProcess(i, month='062023')
+            gh.dominioProcess(i, month='072023')
             time.sleep(10)
         except Exception as e:
             print(f"Error processing {i}: {e}")
